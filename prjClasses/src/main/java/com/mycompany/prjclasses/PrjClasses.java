@@ -12,7 +12,8 @@ public class PrjClasses {
 
     public static void main(String[] args) 
     {
-        System.out.println("Hello World!");
-        System.out.println("I just did my first GitHub activity\nI'm so cool!");
+        newClass nc = new newClass();
+        nc.helloClass();
+        System.out.println(nc.secClassVar);
     }
 }
